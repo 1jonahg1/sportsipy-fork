@@ -3,10 +3,10 @@ import re
 from datetime import datetime
 from pyquery import PyQuery as pq
 from urllib.error import HTTPError
-from .. import utils
-from ..constants import AWAY, HOME
-from ..decorators import int_property_decorator
-from .constants import (BOXSCORE_ELEMENT_INDEX,
+import utils
+from constants import AWAY, HOME # change to work with paths
+from decorators import int_property_decorator  
+from .constants import (BOXSCORE_ELEMENT_INDEX,  # change to work with paths
                         BOXSCORE_ELEMENT_SUB_INDEX,
                         BOXSCORE_SCHEME,
                         BOXSCORE_URL,
