@@ -1,6 +1,10 @@
 import pandas as pd
 import re
+<<<<<<< Updated upstream
 from .constants import (CONF_CHAMPIONSHIP,
+=======
+from nfl.constants import (CONF_CHAMPIONSHIP,
+>>>>>>> Stashed changes
                         DIVISION,
                         LOST_CONF_CHAMPS,
                         LOST_DIVISIONAL,
@@ -10,12 +14,21 @@ from .constants import (CONF_CHAMPIONSHIP,
                         SUPER_BOWL,
                         WILD_CARD,
                         WON_SUPER_BOWL)
+<<<<<<< Updated upstream
 from ..constants import LOSS, WIN
 from ..decorators import float_property_decorator, int_property_decorator
 from .. import utils
 from .nfl_utils import _retrieve_all_teams
 from .roster import Roster
 from .schedule import Schedule
+=======
+from constants import LOSS, WIN
+from decorators import float_property_decorator, int_property_decorator
+import utils
+from nfl_utils import _retrieve_all_teams
+from roster import Roster
+from schedule import Schedule
+>>>>>>> Stashed changes
 
 
 class Team:

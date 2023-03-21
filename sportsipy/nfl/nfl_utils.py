@@ -1,6 +1,12 @@
 from pyquery import PyQuery as pq
+<<<<<<< Updated upstream
 from sportsipy import utils
 from .constants import PARSING_SCHEME, SEASON_PAGE_URL
+=======
+import utils
+from nfl.constants import PARSING_SCHEME, SEASON_PAGE_URL
+import time
+>>>>>>> Stashed changes
 
 
 def _add_stats_data(teams_list, team_data_dict):

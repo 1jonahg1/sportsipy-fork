@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+<<<<<<< Updated upstream
 from ..decorators import float_property_decorator, int_property_decorator
 from .constants import (SCHEDULE_SCHEME,
                         SCHEDULE_URL)
@@ -7,6 +8,15 @@ from datetime import datetime
 from pyquery import PyQuery as pq
 from sportsipy import utils
 from sportsipy.constants import (WIN,
+=======
+from decorators import float_property_decorator, int_property_decorator
+from nfl.constants import (SCHEDULE_SCHEME,
+                        SCHEDULE_URL)
+from datetime import datetime
+from pyquery import PyQuery as pq
+import utils
+from constants import (WIN,
+>>>>>>> Stashed changes
                                  LOSS,
                                  TIE,
                                  HOME,
@@ -15,8 +25,8 @@ from sportsipy.constants import (WIN,
                                  POST_SEASON,
                                  REGULAR_SEASON,
                                  CONFERENCE_TOURNAMENT)
-from sportsipy.nfl.boxscore import Boxscore
-from sportsipy.nfl.constants import (CONF_CHAMPIONSHIP,
+from nfl.boxscore import Boxscore
+from nfl.constants import (CONF_CHAMPIONSHIP,
                                      DIVISION,
                                      SUPER_BOWL,
                                      WILD_CARD)

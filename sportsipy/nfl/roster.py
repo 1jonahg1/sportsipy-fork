@@ -4,9 +4,15 @@ from functools import wraps
 from lxml.etree import ParserError, XMLSyntaxError
 from pyquery import PyQuery as pq
 from urllib.error import HTTPError
+<<<<<<< Updated upstream
 from .. import utils
 from .constants import PLAYER_SCHEME, PLAYER_URL, ROSTER_URL, DETAILED_STATS
 from .player import AbstractPlayer
+=======
+import utils
+from nfl.constants import PLAYER_SCHEME, PLAYER_URL, ROSTER_URL, DETAILED_STATS
+from player import AbstractPlayer
+>>>>>>> Stashed changes
 
 
 def _cleanup(prop):

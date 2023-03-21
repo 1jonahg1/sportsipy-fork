@@ -3,10 +3,17 @@ import re
 from datetime import datetime
 from pyquery import PyQuery as pq
 from urllib.error import HTTPError
+<<<<<<< Updated upstream
 from .. import utils
 from ..constants import AWAY, HOME
 from ..decorators import int_property_decorator
 from .constants import (BOXSCORE_ELEMENT_INDEX,
+=======
+import utils
+from constants import HOME, AWAY
+from decorators import int_property_decorator
+from nfl.constants import (BOXSCORE_ELEMENT_INDEX,
+>>>>>>> Stashed changes
                         BOXSCORE_ELEMENT_SUB_INDEX,
                         BOXSCORE_SCHEME,
                         BOXSCORE_URL,
